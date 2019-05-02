@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+    <application name="Morphology3D">
+        <crown name="Morphology3D">
+            <desc>user script</desc>
+            <serves>
+                <event name="OnMessage1">
+                    <desc>No description yet...</desc>
+                    <param name="message1" type="string" desc="No description yet..."/>
+                </event>
+                <event name="OnMessage2">
+                    <desc>No description yet...</desc>
+                    <param name="message2" type="string" desc="No description yet..."/>
+                </event>
+            </serves>
+        </crown>
+        <meta key="author">AppSpace Sample</meta>
+        <meta key="version">2.5.0</meta>
+        <meta key="licensed">false</meta>
+        <meta key="priority">low</meta>
+        <meta key="tags">Image,Algorithm,Filter,Analysis</meta>
+        <meta key="read-protected">false</meta>
+        <meta key="copy-protected">false</meta>
+        <entry path="pages" default="Morphology3D.msdd">
+            <file type="application/zip">Morphology3D.msdd</file>
+        </entry>
+        <entry path="resources">
+            <file type="application">image_23.json</file>
+            <file type="application">image_24.json</file>
+        </entry>
+        <entry path="scripts" default="Morphology3D.lua">
+            <file type="text/x-lua">Morphology3D.lua</file>
+        </entry>
+    </application>
+</manifest>
