@@ -1,0 +1,22 @@
+<layout-row id="RowLayout1" style="align-items:stretch">
+		
+		
+		
+	<layout-column id="ColumnLayout1">
+		<davinci-value-display id="ValueDisplay1" label="Input:">
+			<crown-edpws-binding property="value" name="Morphology3D/OnMessage1" update-on-resume></crown-edpws-binding>
+	</davinci-value-display>
+		<sick-viewer3d id="Viewer3D1" protocol="auto" style="width:100%;height:100%" viewer-id="viewer3D1">
+	</sick-viewer3d>
+	</layout-column>
+	<layout-column id="ColumnLayout2">
+		<davinci-value-display id="ValueDisplay2" label="Output:">
+			<crown-edpws-binding property="value" name="Morphology3D/OnMessage2" update-on-resume></crown-edpws-binding>
+	</davinci-value-display>
+  <sick-viewer3d id="Viewer3D2" protocol="auto" style="width:100%;height:100%" viewer-id="viewer3D2">
+	</layout-column>
+		
+	
+	
+  
+</layout-row>

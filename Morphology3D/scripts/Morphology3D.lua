@@ -24,10 +24,9 @@ Script.serveEvent('Morphology3D.OnMessage1', 'OnMessage1', 'string')
 Script.serveEvent('Morphology3D.OnMessage2', 'OnMessage2', 'string')
 
 -- Create viewer for original and filtered 3D image
-local viewer1 = View.create()
-viewer1:setID('viewer1')
-local viewer2 = View.create()
-viewer2:setID('viewer2')
+
+local viewer1 = View.create('viewer3D1') -- Will show in 3D viewer
+local viewer2 = View.create('viewer3D2') -- Will show in 3D viewer
 
 local DELAY = 2000
 
