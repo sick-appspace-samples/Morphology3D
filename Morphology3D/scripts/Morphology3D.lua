@@ -15,7 +15,8 @@ local DELAY = 2000
 
 -- Start of Function and Event Scope--------------------------------------------
 
---@filteringImage(heightMap:Image, intensityMap:Image)
+---@param heightMap Image
+---@param intensityMap Image
 local function filteringImage(heightMap, intensityMap)
   -- MORPHOLOGY: A morphological transformation applied to grayscale images.
   -- The possible transformation types are: ERODE, DILATE, OPEN, CLOSE,
